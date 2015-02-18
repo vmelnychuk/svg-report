@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg">
+    <style type="text/css">
+        ellipse {
+            fill: red;
+            stroke: blue;
+            stroke-width: 3;
+        }
+        ellipse:hover {
+            fill: green;
+        }
+        rect {
+            fill: red;
+            stroke: blue;
+            stroke-width: 3;
+        }
+        rect:hover {
+            fill: green;
+        }
+    </style>
+    <rect x="160" y="280" width="80" height="80" ry="20" rx="40"/>
+    <ellipse rx="40" ry="20" cx="200" cy="300" />
+</svg>

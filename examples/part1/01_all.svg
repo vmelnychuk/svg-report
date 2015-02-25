@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg">
+    <style type="text/css">
+    line {
+    stroke: black;
+    stroke-width: 2;
+    }
+    .logo {
+        stroke-width: 20;
+        stroke-dasharray: 125.66 376.99;
+    }
+    .part1 {
+        stroke: #4B86CB;
+        stroke-dashoffset: 0;
+    }
+    .part2 {
+        stroke: #1B2B7D;
+        stroke-dashoffset: 251.32;
+    }
+    .part3 {
+        stroke: #AFAFAF;
+        stroke-dashoffset: 376.99;
+    }
+    .logo-line {
+        stroke-width: 15;
+        stroke: #4B86CB;
+    }
+    </style>
+    <!-- logo -->
+    <circle class="logo part1" r="60" cx="200" cy="200" fill="none"/>
+    <circle class="logo part2" r="60" cx="200" cy="200" fill="none"/>
+    <circle class="logo part3" r="60" cx="200" cy="200" fill="none"/>
+
+    <!-- logo to line -->
+    <line x1="0" y1="20" x2="376.99" y2="20" class="logo part1"/>
+    <line x1="0" y1="20" x2="376.99" y2="20" class="logo part2"/>
+    <line x1="0" y1="20" x2="376.99" y2="20" class="logo part3"/>
+</svg>

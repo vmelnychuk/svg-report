@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg">
-    <style type="text/css">
-    </style>
-    <!-- <polyline points="40,100 50,160 60,120 70,160 80,100" fill="green" stroke="red" stroke-width="1"/> -->
-    <polygon points="40,100 50,160 60,120 70,160 80,100" fill="green" stroke="red" stroke-width="1"/>
-</svg>

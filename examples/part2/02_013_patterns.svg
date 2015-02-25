@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <pattern id="dots" width="5" height="5" patternUnits="userSpaceOnUse">
+            <rect width="4" height="4" fill="#fff"/>
+            <rect width="1" height="1" fill="#aaa"/>
+        </pattern>
+    </defs>
+    <rect id="background" x="0" y="0" width="100%" height="100%" fill="url(#dots)"/>
+</svg>
+
+<!-- 
+http://www.ubuntu.com/desktop
+http://askubuntu.com/ 
+-->

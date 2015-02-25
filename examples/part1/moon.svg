@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style type="text/css">
+        text {
+            fill: silver;
+            font-family: sans-serif;
+            font-size: 24px;
+        }
+    </style>
+    <text x="5%" y="10%" >The Moon (Latin: Luna) is Earth's only natural satellite.</text>
+    <image xlink:href="moon.jpg" x="100" y="200" width="280" height="266" alt="Moon"/>
+</svg>

@@ -1,4 +1,4 @@
-# Using SVG for web-design
+# Using SVG for web-design. Part 1
 This is short report about using SVG for web.
 ## What is SVG?
 ### Key point

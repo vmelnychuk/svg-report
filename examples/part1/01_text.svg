@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg">
+    <style type="text/css">
+        .text {
+            fill: #770099;
+            font-family: sans-serif;
+            font-size: 24px;
+        }
+    </style>
+    <text x="200" y="300" class="text" style="fill:red;">Helo World!</text>
+</svg>

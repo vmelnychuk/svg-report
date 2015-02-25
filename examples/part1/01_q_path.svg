@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg">
+    <style type="text/css">
+        path {
+            fill: none;
+            stroke-width: 2;
+            stroke: #ff0000;
+        }
+        .line {
+            stroke: #f00;
+        }
+        .curve {
+            stroke: #00f;
+        }
+    </style>
+    <!-- <path d="M 70,290 L 150,150 200,250 40,250 100,150 170,290" style="fill-rule: evenodd;" /> -->
+    <!-- <path d="M 100 200 L 200,400 300,200" class="line"/> -->
+    <!-- <path d="M 100 200 Q 200,400 300,200" class="curve"/> -->
+    <!-- <path d="M 100 200 L 200,400 300,200 400,0 500,200" class="line"/> -->
+    <path d="M 100 200 C 200,400 350,200 400,0 L 500,200" class="line"/>
+    <!-- <path d="M 0,200 L 50,200 100,300 150,200 L 200,100 250,200 300,200" class="line"/> -->
+    <!-- <path d="M 0,200 C 50,200 100,300 150,200 C 200,100 250,200 300,200" class="line"/> -->
+</svg>

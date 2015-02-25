@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg">
+    <style type="text/css">
+        .db-icon {
+            stroke: #000;
+            stroke-width: 2;
+            fill: #f00;
+        }
+    </style>
+    <g transform="rotate(120, 200, 200)" class="db-icon" >
+    <rect x="50" y="85" width="100" height="150" class="db-icon" rx="50" ry="20" />
+    <ellipse rx="50" ry="20" cx="100" cy="100"/>
+    </g>
+</svg>

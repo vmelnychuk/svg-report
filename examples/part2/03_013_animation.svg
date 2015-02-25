@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <path id="curve" stroke="black" fill="yellowgreen" stroke-width="3" fill-opacity=".5" >
+        <animate attributeName="d" dur="3s"
+        values="M 100,0 0,100 70,50  130,150 200,100 z;
+                M 100,0 0,100 70,150 130, 50 200,100 z;
+                M 100,0 0,100 70,50  130,150 200,100 z"
+                repeatCount="indefinite"/>
+    </path>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <path id="way" stroke="darkslategray" stroke-width="6" fill="none" stroke-linecap="round"
+    d="M50,100 A100,50 0 0 1 250,100 A80,40 0 0 1 90,100 A60,30 0 0 1 210,100 A40,20 0 0 1 130,100 A20,10 0 0 1 170,100" opacity="0.5" />
+
+
+    <ellipse id="el" cx="0" cy="0" rx="20" ry="10" fill="inherit" opacity=".75" stroke="black" stroke-width="2">
+        <animateMotion dur="10s" rotate="auto" repeatCount="indefinite">
+            <mpath xlink:href="#way"/>
+        </animateMotion>
+    </ellipse>
+</svg>

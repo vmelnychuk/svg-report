@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style type="text/css">
+        .planet:hover {
+            mask: url(#mask-translate);
+        }
+    </style>
+    <mask id="mask">
+        <g id="mask-pattern">
+            <rect x="30" y="50" rx="15" ry="15" width="710" height="625" fill="white" stroke="#000" stroke-width="0"/>
+            <rect x="30" y="625" width="710" height="100" fill="white" stroke="#000" stroke-width="0"/>
+        </g>
+    </mask>
+
+<!--     <mask id="mask-translate">
+        <use xlink:href="#mask-pattern" transform="translate(100, 100) scale(0.5) rotate(45, 370, 337)" />
+    </mask> -->
+        <mask id="mask-translate">
+        <use xlink:href="#mask-pattern" fill-opacity="0.4" />
+    </mask>
+    <g mask="url(#mask)" class="planet">
+        <image y="0" x="0" width="768" height="768" xlink:href="venus.jpg"/>
+    </g>
+</svg>
